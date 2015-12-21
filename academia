@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width">
+    <meta name="description" content="Content about uaa people">
+    <meta name="author" content="Diego Cortez">
+    <meta name="keywords" content="people university aguascalientes mexico uaa">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="cleartype" content="on">
+    <meta content="IE=Edge,chrome=1" http-equiv="x-ua-compatible">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="translucent-black">
+    <meta name="apple-mobile-web-app-title" content="My App">
+    <title>Uaa Blog</title>
+    <link rel="icon" href="img/favicon.ico?v=2" type="image/x-icon">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=RobotoDraft:100, 200, 300,400,500,700,400italic">
+    <link rel="stylesheet" href="app/normalize.css">
+    <link rel="stylesheet" href="app/index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+<body>
+    <header id="main-header">
+        <h2>Animales</h2>
+        <a href="#">Registrarse</a>
+    </header>
+    <div id="main-container">
+        <aside id="main-nav">
+            
+        </aside>
+        <div id="main-sections-container">
+            <section>
+                <header><h2>Universidad Autonoma de Aguascalientes</h2></header>
+                <div class="full"><span>more</span></div>
+                <article>
+                    <img src="imagenes/gatos.jpg" >
+                    <p>
+                        Este animal, es comúnmente conocido como Gato, o Gato doméstico, y pertenece a la familia de los Felidae, es un animal que si tuviéramos que ponerlo en alguna de las clasificaciones que conocemos sería en vertebrados, mamíferos, carnívoros y a su vez dentro de gran grupo de Animales Domésticos.  <a href="#leer mas">primer</a> 
+                    </p>
+                </article>
+            </section>
+        </div>
+    </div>
+    <script src="app/index.js"></script>
+    <div id="main-container">        
+        <div id="main-sections-container">
+            <section>
+                <header><h2>Caballos</h2></header>
+                <div class="full"><span>more</span></div>
+                <article>
+                    <img src="imagenes/caballos.jpg">
+                    <p>
+                        La forma de una cabeza de caballo varía mucho en función de la raza. Los caballos árabes por lo general tienden a tener cara de plato con un perfil cóncavo, mientras que los caballos de tiro se caracterizan por tener la nariz romana y un perfil convexo.
+                    </p>
+                </article>
+            </section>
+        </div>
+    </div>s
+    <script src="app/index.js"></script>
+      <div id="main-container">        
+        <div id="main-sections-container">
+            <section>
+                <header><h2>Elefante</h2></header>
+                <div class="full"><span>more</span></div>
+                <article>
+                    <img src="imagenes/elefante.jpg">
+                    <p>
+                        Elefante es el nombre con el que es conocido el mamífero (terrestre) más grande del mundo.
+Hoy en día existen dos especies diferentes de elefantes. El elefante asiático o indio y el elefante africano.
+Ambas especies ocupan hábitats variados, como desiertos, sabanas, zonas de bosques tropicales, valles de ríos, zonas montañosas de gran altura, etc.
+Los animales primitivos de los elefantes son los mamuts y los mastodontes.
+La trompa de los elefantes es una adaptación de la nariz y es especialmente sensible a todo tipo de olores y sabores.
+                    </p>
+                </article>
+            </section>
+        </div>
+    </div>
+    <script src="app/index.js"></script>
+</body>
+</html>
