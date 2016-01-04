@@ -1,0 +1,357 @@
+html {
+	height: 100%;
+}
+
+body {
+	margin: 0;
+	padding: 64px 0 0 0;
+	height: 100%;
+	font-family: RobotoDraft;
+	background-color: #2F7511;
+	color: #fff;
+	float: right;
+}
+#fondo{
+    position:fixed;
+    top:0;
+    left:0;
+    z-index:-1;s
+}
+
+
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+
+#imagen-fondo{
+	margin: 17px 0 0 10px;
+	float: rigth;
+	width: 76%;
+	background-attachment: fixed;
+	text-align: center;
+	}
+
+#boton{
+	width: 20%;
+	position: inherit;
+	float: right;
+	height: 40%;
+   }
+
+
+
+/*header*/
+#main-header {
+	width: 100%;
+	height: 64px;
+	position: fixed;
+	top: 0;
+	background-color: #6B682C;  
+	color: #FFFFFF;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.14);
+}
+
+#main-header h2 {
+	margin: 17px 0 0 30px;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-size: 20px;
+	font-weight: 400;
+	float: left;
+}
+
+#main-header a {
+	margin: 20px 20px 0 0;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 15px;
+	float: right;
+	color: #F7FEFC; 
+	text-decoration: none;
+}
+
+/*aside*/
+#main-container aside#main-nav {
+	position: inherit;
+	left: 60px;
+	width: 15%;
+	right: 20%;
+	background-color: #6B682C;
+	border-radius: 40px;
+	color: #FFFFFF;
+	text-align: center;
+	border-radius: 40px;
+	box-shadow: 10px 12px 3px 0px rgba(4, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px -1px rgba(0, 0, 0, 0.23);
+	top: 70%;
+}
+
+#main-container #main-nav nav li{
+	height: 60px;
+	font-weight: 00;
+	line-height: 53px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	transition: all .3s;
+	cursor: pointer;
+}
+
+#main-container #main-nav nav li:hover{
+	background-color: #E8F765;  
+	color: #E8F765;
+	border-radius:40px;
+}
+
+/*sections*/
+#main-container #main-sections-container{
+	float: right;
+	width: 70%;
+	margin-top: -450px;
+	margin-right: 89px;
+	margin-left: 15px;
+	margin-bottom: 0;
+}
+
+#main-container #main-sections-container section{
+	margin: 0 0 25px 0;
+	background-color: #FFFFFF;
+	color: #FFFFFF; // este es el color de la letra de circulos
+	border-radius: 1px;
+	box-shadow: 20px 1px 3px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px -1px rgba(0, 0, 0, 0.12);
+}
+
+#main-container #main-sections-container section header{
+	width: 200px;
+	margin: 15px 0 0 -12px;
+	background-color: #834913; 
+	padding: 8px;
+	text-align: center;
+	min-height: 20px;
+	color: #fff;
+	float: left;
+}
+
+#main-container #main-sections-container section header h2{
+	margin: 0;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 26px;
+}
+
+#main-container #main-sections-container section div.full{
+	float: right;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	background-color: #2F9C3A;  
+	color: #fff;
+	margin: 15px 15px 45px 15px;
+}
+
+#main-container #main-sections-container section div.article{
+    clear: right;
+	height: 200px;
+	background-color: #dc3f1c;
+	color: #fff;
+	overflow: fixed;
+
+}
+
+#main-container #contenedor2 section div.article{
+clear: right;
+	height: 200px;
+	background-color: #FFFFFF;
+	color: #fff;
+	overflow: hidden
+
+}
+
+
+#main-container #main-sections-container section div.full span{
+	position: fixed;
+	top: 230px;
+	font-size: 15px;
+	left: 820px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	
+}
+
+
+#main-container #main-sections-container section article{
+	clear: right;
+	height: 200px;
+	background-color: #FDFD55;
+	color: #0A0A0A;
+	overflow: hidden;
+}
+
+#main-container #contenedor2 section article{
+	clear: right;
+	height: 200px;
+	background-color: #FDFD55;
+	color: #fff;
+	overflow: hidden;
+}
+
+#main-container #main-sections-container section article img{
+	float: left;
+	margin-right: 15px;
+}
+
+#main-container #main-sections-container section article p{
+	margin: 10px;
+	font-size: 15px;
+	letter-spacing: 1px;
+	text-align: justify;
+}
+
+
+
+
+/*responsive*/
+@media(max-width: 1024px){
+#main-container {
+		display: block;
+	}
+#main-header{
+	max-width: 100%
+}
+#imagen-fondo{
+	max-width: 100%;
+}
+
+#portada{
+	max-width: 100;
+
+}
+
+#boton{
+	max-width: 100%;
+}
+#main-header {
+	max-width: 100%;
+}
+#main-container aside#main-nav {
+	max-width: 100;
+}
+
+#main-container #main-nav nav li{
+max-width: 100;
+}
+
+#main-container #main-sections-container{
+	max-width: 100%;
+}
+#main-container #main-sections-container section{
+	max-width: 100%;
+}
+#main-container #main-sections-container section div.full{
+	max-width: 100%;
+
+ }
+#main-container #contenedor2 section article{
+	max-width: 100;
+}
+
+#portada{
+	max-width: 100;
+}
+
+
+}
+
+
+@media(max-width: 900px){
+	#main-container {
+		display: block;
+	}
+#main-header{
+	max-width: 100%
+}
+#imagen-fondo{
+	max-width: 100%;
+}
+#portada{
+	max-width: 100%;
+}
+
+#boton{
+	max-width: 100;
+}
+
+#main-header {
+	max-width: 100%;
+}
+#main-container aside#main-nav {
+	max-width: 100;
+}
+#main-container #main-nav nav li{
+max-width: 100;
+}
+
+#main-container #main-sections-container{
+	max-width: 100%;
+}
+#main-container #main-sections-container section{
+	max-width: 100%;
+}
+#main-container #main-sections-container section div.full{
+	max-width: 100%;
+
+ }
+ #main-container #contenedor2 section article{
+ 	max-width: 100%;
+}
+
+}
+@media(max-width: 400px){
+#main-container {
+		display: block;
+	}
+#main-header{
+	max-width: 100%
+}
+#imagen-fondo{
+	max-width: 100%;
+}
+#portada{
+	max-width: 100%;
+}
+
+#boton{
+	max-width: 100;
+}
+
+#main-header {
+	max-width: 100%;
+}
+#main-container aside#main-nav {
+	max-width: 100;
+}
+#main-container #main-nav nav li{
+max-width: 100;
+}
+
+
+#main-container #main-sections-container{
+	max-width: 100%;
+}
+#main-container #main-sections-container section{
+	max-width: 100%;
+}
+#main-container #main-sections-container section div.full{
+	max-width: 100%;
+
+ }
+ #main-container #contenedor2 section article{
+ 	max-width: 100%;
+}
+
+}
+
+
+
