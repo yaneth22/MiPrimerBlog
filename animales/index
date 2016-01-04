@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width">
+    <meta name="description" content="descripcion de animales">
+    <meta name="author" content="yaneth ortega">
+    <meta name="keywords" content="people university aguascalientes mexico uaa">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="cleartype" content="on">
+    <meta content="IE=Edge,chrome=1" http-equiv="x-ua-compatible">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="translucent-black">
+    <meta name="apple-mobile-web-app-title" content="My App">
+    <title>Animales Blog</title>
+    <link rel="icon" href="img/favicon.ico?v=2" type="image/x-icon">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=RobotoDraft:100, 200, 300,400,500,700,400italic">
+    <script src="app/menu.js"></script>
+    <link rel="stylesheet" href="app/normalize.css">
+    <link rel="stylesheet" href="app/index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+     <script src="app/index.js"></script>
+</head>
+
+
+
+<body>
+<header id="main-header">
+  <h2>Animales</h2>
+        <a href="#">Registrarse</a>
+</header>
+<img id="fondo" src="imagenes/verde.jpg"  alt="verde" />  
+
+<div id="boton">                
+<input name="imageField" type="image" disabled src="imagenes/twitter.png" width="80" height="80" >
+<input name="imageField" type="image" disabled src="imagenes/facebook.png" width="80" height="80"  >
+<input name="imageField" type="image" disabled src="imagenes/youtube.png" width="80" height="80">
+  </div>
+
+<div id="imagen-fondo">
+ <img  id="portada" src="imagenes/portada.jpg" width="1024" height="350">
+  
+    
+</div>
+
+    
+    <div id="main-container">
+        <aside id="main-nav">
+           
+            <nav>
+                <ul>
+                    <li>Perros</li>
+                    <li>Arañas </li>
+                    <li>Serpientes</li>
+                    <li>Jirafas</li>
+                    <li>Conejos</li>
+                    <li>Hipopotamos</li>
+                    <li>Panteras</li>
+                    <li>Osos Polares</li>
+                </ul>
+            </nav>
+
+        </aside>
+       
+        <div id="main-sections-container">
+            <section>
+                <header><h2>Gatos</h2></header>
+                <div class="full"></div>
+                <article>
+                    <img src="imagenes/gatos.jpg" width="320" height="244" >
+                    <p>
+                        Este animal, es comúnmente conocido como Gato, o Gato doméstico, y pertenece a la familia de los Felidae, es un animal que si tuviéramos que ponerlo en alguna de las clasificaciones que conocemos sería en vertebrados, mamíferos, carnívoros y a su vez dentro de gran grupo de Animales Domésticos.  <a href="#leer mas">primer</a> 
+                    </p>
+                </article>
+            </section>
+    
+            <section>
+                <header><h2>Caballos</h2></header>
+                <div class="full"></div>
+
+                <article>
+                    <img src="imagenes/caballos.jpg" width="320" height="199">
+                    <p>
+                        La forma de una cabeza de caballo varía mucho en función de la raza. Los caballos árabes por lo general tienden a tener cara de plato con un perfil cóncavo, mientras que los caballos de tiro se caracterizan por tener la nariz romana y un perfil convexo.
+                    </p>
+                </article>
+            </section>
+      
+               <section>
+                <header><h2>Elefante</h2></header>
+                <div class="full"></div>
+                <article>
+                    <img src="imagenes/elefante.jpg" width="320" height="240">
+                    <p>
+                        Elefante es el nombre con el que es conocido el mamífero (terrestre) más grande del mundo.
+Hoy en día existen dos especies diferentes de elefantes. El elefante asiático o indio y el elefante africano.
+Ambas especies ocupan hábitats variados, como desiertos, sabanas, zonas de bosques tropicales, valles de ríos, zonas montañosas de gran altura, etc.
+Los animales primitivos de los elefantes son los mamuts y los mastodontes.
+La trompa de los elefantes es una adaptación de la nariz y es especialmente sensible a todo tipo de olores y sabores.
+                    </p>
+                </article>
+            </section>
+			
+			
+			 <section>
+                <header><h2>Serpiente</h2></header>
+                <div class="full"></div>
+                <article>
+                    <img src="imagenes/serpientes.jpg" width="315" height="237">
+                    <p>
+                        Las serpientes son reptiles con cuerpo largo y cubierto de escamas. Sus ojos no se mueven y no tienen párpados. Pueden proyectar su lengua gracias a la fuerza de su mandíbula. Los huesos de su mandíbula están unidos por ligamentos elásticos, lo que permite que puedan abrir de forma desproporcionada su boca.
+                    </p>
+                
+            </section>
+	</article>
+    
+
+   
+</body>
+</html>
